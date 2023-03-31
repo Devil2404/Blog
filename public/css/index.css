@@ -1,0 +1,128 @@
+.blog_container {
+    width: 80%;
+    height: max-content;
+    margin: 20px auto;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.blog {
+    width: 45%;
+    height: max-content;
+    padding: 20px 22px;
+    margin: 10px auto;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.blog_heading,
+.blog_description,
+.blog_info {
+    width: 100%;
+    padding: 10px 6px;
+}
+
+.type_time {
+    height: max-content;
+
+    display: flex;
+}
+
+.blog_type,
+.blog_time {
+    margin: auto 10px;
+}
+
+.blog_heading h2 a {
+    text-decoration: none;
+    color: #07181f;
+    cursor: pointer;
+}
+
+.introMsg {
+    position: relative;
+    width: 100%;
+    padding: 10px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    ;
+}
+
+.introImg,
+.intro {
+    width: 46%;
+    height: max-content;
+    padding: 10px 12px;
+    margin: 10px;
+}
+
+.introImg img {
+    width: 100%;
+    height: auto;
+}
+
+.intro p {
+    width: 100%;
+    height: max-content;
+    font-size: 2.5em;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.intro p span {
+    color: #000;
+}
+
+.custom-shape-divider-bottom-1680252140 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680252140 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1680252140 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.blogHeading {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px 12px;
+}
+
+.blogHeading h1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+@media (max-width: 766px) {
+    .blog {
+        width: 100%;
+    }
+
+    .blog_container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,63 @@
+.functions {
+    width: 80%;
+    height: max-content;
+    margin: 30px auto;
+    padding: 10px 12px;
+}
+
+.functions h3 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    padding: 10px 12px;
+    border-bottom: 2px solid #fd5b2e;
+}
+
+.function {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 12px;
+    margin: 10px;
+}
+
+.function h4 {
+    margin: 10px;
+    padding: 10px 12px;
+}
+
+.function h4 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.userBlog {
+    width: 40%;
+    margin: 10px;
+}
+
+.btns {
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+.btns button {
+    margin: auto 10px;
+    padding: 10px 12px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #8d38a8;
+}
+
+.btns button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog {
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.function {
+    width: 35%;
+}
+
+.desc,
+.essay {
+    width: 75%;
+    margin: 10px auto;
+    padding: 10px 12px;
+}
+
+.desc p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.essay p {
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: justify;
+}

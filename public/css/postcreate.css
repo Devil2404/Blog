@@ -1,0 +1,21 @@
+.form_container {
+    width: 70%;
+}
+
+.form_container h3 {
+    margin: 20px auto;
+    font-size: 2em;
+}
+
+.form_container form textarea {
+    margin: 15px auto;
+    width: 90%;
+    padding: 15px 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+}
+
+.extra {
+    height: 140px;
+}
